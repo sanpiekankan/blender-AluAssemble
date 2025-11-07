@@ -12,8 +12,9 @@ bl_info = {
 
 
 def register():
-    from . import operators, panels, handlers, workspace, ui
+    from . import operators, panels, handlers, workspace, ui, data, gn
 
+    data.register()
     operators.register()
     panels.register()
     handlers.register()
@@ -27,7 +28,7 @@ def register():
 
 
 def unregister():
-    from . import operators, panels, handlers, ui
+    from . import operators, panels, handlers, ui, data
 
     # 反向注销，避免依赖残留
     try:
@@ -44,5 +45,9 @@ def unregister():
         pass
     try:
         operators.unregister()
+    except Exception:
+        pass
+    try:
+        data.unregister()
     except Exception:
         pass

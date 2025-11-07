@@ -1,0 +1,82 @@
+[
+  {
+    "id": "GB-2020",
+    "name": "2020",
+    "standard": "GB",
+    "series": "20",
+    "section_params": {"width": 20, "height": 20, "slot_width": 6, "wall_thickness": 2},
+    "default_length": 1000
+  },
+  {
+    "id": "GB-2040",
+    "name": "2040",
+    "standard": "GB",
+    "series": "20",
+    "section_params": {"width": 20, "height": 40, "slot_width": 6, "wall_thickness": 2},
+    "default_length": 1000
+  },
+  {
+    "id": "GB-3030",
+    "name": "3030",
+    "standard": "GB",
+    "series": "30",
+    "section_params": {"width": 30, "height": 30, "slot_width": 8, "wall_thickness": 2.5},
+    "default_length": 1000
+  },
+  {
+    "id": "GB-3060",
+    "name": "3060",
+    "standard": "GB",
+    "series": "30",
+    "section_params": {"width": 30, "height": 60, "slot_width": 8, "wall_thickness": 2.5},
+    "default_length": 1000
+  },
+  {
+    "id": "GB-4040",
+    "name": "4040",
+    "standard": "GB",
+    "series": "40",
+    "section_params": {"width": 40, "height": 40, "slot_width": 8, "wall_thickness": 3},
+    "default_length": 1000
+  },
+  {
+    "id": "GB-4080",
+    "name": "4080",
+    "standard": "GB",
+    "series": "40",
+    "section_params": {"width": 40, "height": 80, "slot_width": 8, "wall_thickness": 3},
+    "default_length": 1000
+  },
+  {
+    "id": "EN-2020",
+    "name": "2020",
+    "standard": "EN",
+    "series": "20",
+    "section_params": {"width": 20, "height": 20, "slot_width": 6, "wall_thickness": 2},
+    "default_length": 1000
+  },
+  {
+    "id": "EN-3030",
+    "name": "3030",
+    "standard": "EN",
+    "series": "30",
+    "section_params": {"width": 30, "height": 30, "slot_width": 8, "wall_thickness": 2.5},
+    "default_length": 1000
+  },
+  {
+    "id": "EN-4040",
+    "name": "4040",
+    "standard": "EN",
+    "series": "40",
+    "section_params": {"width": 40, "height": 40, "slot_width": 8, "wall_thickness": 3},
+    "default_length": 1000
+  },
+  {
+    "id": "EN-4545",
+    "name": "4545",
+    "standard": "EN",
+    "series": "45",
+    "section_params": {"width": 45, "height": 45, "slot_width": 10, "wall_thickness": 3},
+    "default_length": 1000
+  }
+]

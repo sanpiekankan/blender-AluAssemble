@@ -10,6 +10,8 @@ def draw_aluframe_header(self, context):
     row.operator("ed.undo", text="撤销")
     row.operator("ed.redo", text="重做")
     row.operator("aluframe.export_bom", text="导出BOM")
+    # 快捷：添加当前选中型材
+    row.operator("aluframe.add_selected_profile", text="添加当前型材")
 
 
 def register():

@@ -1,10 +1,11 @@
 import bpy
 
-from .profile_library import ALUFRAME_PT_profile_library
+from .profile_library import ALUFRAME_PT_profile_library, ALUFRAME_UL_profiles
 from .property_panel import ALUFRAME_PT_property_panel
 
 
 classes = (
+    ALUFRAME_UL_profiles,
     ALUFRAME_PT_profile_library,
     ALUFRAME_PT_property_panel,
 )
