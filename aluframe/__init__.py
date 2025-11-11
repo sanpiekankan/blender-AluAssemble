@@ -26,6 +26,12 @@ def register():
     except Exception as e:
         print(f"[AluFrame] 工作台初始化跳过：{e}")
 
+    # 将场景单位设置为毫米（延迟执行，确保 scene 可用）
+    try:
+        workspace.set_units_millimeters_deferred()
+    except Exception as e:
+        print(f"[AluFrame] 单位设置跳过：{e}")
+
 
 def unregister():
     from . import operators, panels, handlers, ui, data
